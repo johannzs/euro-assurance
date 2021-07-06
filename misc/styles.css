@@ -1,4 +1,6 @@
-#spotlight {
-    background: rgb(251,142,0);
-    background: linear-gradient(180deg, rgba(251,142,0,1) 41%, rgba(255,255,255,0) 70%)!important;
+@media screen and (min-width: 767px) {
+    #spotlight {
+        background: rgb(251,142,0);
+        background: linear-gradient(180deg, rgba(251,142,0,1) 41%, rgba(255,255,255,0) 70%)!important;
+    }
 }
