@@ -1,0 +1,55 @@
+#spotlight, #product-section {
+    background: rgb(251,142,0);
+    background: linear-gradient(180deg, rgba(251,142,0,1) 41%, rgba(255,255,255,0) 70%)!important;
+}
+
+h1 {
+    font-size: 40px!important;
+    color: #fff!important;
+    padding: 120px 20px 0!important;
+}
+
+h2 {
+    color:#FB8E00!important;
+    font-size: 16px!important;
+    font-weight: bold!important;
+}
+
+a:not(.btn-link, #header-se-connecter) {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#spotlight img {
+    max-width: 310px;
+    margin-bottom: 45px!important;
+}
+
+.container, #spotlight {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    padding: 0 30px;
+}
+
+.btn-link {
+    color:#000!important;
+    border: 1px solid #000!important;
+    padding: 10px 50px;
+    margin-bottom: 30px!important;
+    display: inline-block;
+    border-radius: 30px!important;
+}
+
+@media screen and (max-width:767px) {
+    #spotlight img {
+        max-width:200px!important;
+    }
+
+    img {
+        max-width: 100%!important;
+    }
+}
