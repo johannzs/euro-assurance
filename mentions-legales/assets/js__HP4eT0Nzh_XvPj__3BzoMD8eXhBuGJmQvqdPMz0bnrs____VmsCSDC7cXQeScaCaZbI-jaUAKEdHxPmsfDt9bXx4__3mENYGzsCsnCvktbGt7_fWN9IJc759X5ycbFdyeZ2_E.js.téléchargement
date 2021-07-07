@@ -1,0 +1,37 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(function(o){Drupal.theme.prototype.ea_common_modal_popup=function(){var o='';o+='  <div id="ctools-modal">';o+='    <div class="ea-common-modal overlay-call-back">';o+='      <div class="overlay-inner">';o+='        <a href="javascript:void(0);" class="close close-overlay icon-ea" title="Fermer la fenêtre"><i class="icon-times"></i></a>';o+='        <div id="modal-content">';o+='        </div>';o+='      </div>';o+='    </div>';o+='  </div>';return o};Drupal.theme.prototype.ea_common_modal_popup_error=function(){var o='';o+='  <div id="ctools-modal">';o+='    <div class="ea-common-modal overlay-call-back-error">';o+='      <div class="overlay-inner">';o+='        <a href="javascript:void(0);" class="close close-overlay-error icon-ea" title="Fermer la fenêtre"><i class="icon-times"></i></a>';o+='        <div id="modal-content">';o+='        </div>';o+='      </div>';o+='    </div>';o+='  </div>';return o}})(jQuery);(function(o,e){function a(r,a){o('#ctools-modal').remove();var l=e.theme(r);o('.main-footer').append(l);o('#modal-content').html(a.form);if(typeof a.message!='undefined'){o('#modal-content .row:first').prepend('<p class="error-message">'+a.message+'</p>')}};e.ajax.prototype.commands.modal_form_callback=function(o,e,r){a('ea_common_modal_popup',e)};e.ajax.prototype.commands.modal_form_error=function(o,e,r){a('ea_common_modal_popup_error',e)};e.ajax.prototype.commands.delay_modal_dismiss=function(a,r,l){setTimeout(function(){e.CTools.Modal.dismiss();o('link.ctools-temporary-css').remove()},r.delay)}})(jQuery,Drupal);;/*})'"*/
+
+
+}
+/*
+     FILE ARCHIVED ON 00:45:14 Apr 10, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:48:18 Jul 07, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 10.112
+  exclusion.robots: 0.21
+  captures_list: 164.38
+  exclusion.robots.policy: 0.198
+  CDXLines.iter: 21.03 (3)
+  esindex: 0.012
+  load_resource: 528.861
+  PetaboxLoader3.resolve: 468.884
+  PetaboxLoader3.datanode: 117.024 (4)
+  LoadShardBlock: 129.31 (3)
+*/
