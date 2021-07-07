@@ -44,6 +44,10 @@ a:not(.btn-link, #header-se-connecter) {
     border-radius: 30px!important;
 }
 
+.last-paragraph {
+    margin-bottom: 150px;
+}
+
 @media screen and (max-width:767px) {
     #spotlight img {
         max-width:200px!important;
