@@ -3,13 +3,8 @@
     background: linear-gradient(180deg, rgba(251,142,0,1) 41%, rgba(255,255,255,0) 70%)!important;
 }
 
-.sticky-nav a {
-    display: block;
-}
-
-.sticky-nav ul li a svg {
-    margin: 4px auto 6px;
-    display: block;
+#section-reassurance {
+    margin-top: 70px;
 }
 
 @media screen and (max-width: 767px) {

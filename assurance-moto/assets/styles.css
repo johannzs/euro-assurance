@@ -3,6 +3,10 @@
     background: linear-gradient(180deg, rgba(251,142,0,1) 41%, rgba(255,255,255,0) 70%)!important;
 }
 
+#section-reassurance {
+    margin-top: 70px;
+}
+
 .sticky-nav a {
     display: block;
 }

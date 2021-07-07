@@ -4,3 +4,9 @@
         background: linear-gradient(180deg, rgba(251,142,0,1) 41%, rgba(255,255,255,0) 70%)!important;
     }
 }
+
+@media screen and (max-width: 767px) {
+    footer img {
+        max-width: 100%!important;
+    }
+}

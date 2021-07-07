@@ -6,6 +6,7 @@
 h1 {
     font-size: 40px!important;
     color: #fff!important;
+    padding: 120px 20px 0!important;
 }
 
 h2 {
@@ -14,13 +15,13 @@ h2 {
     font-weight: bold!important;
 }
 
-a:not(.btn-link) {
+a:not(.btn-link, #header-se-connecter) {
     font-weight: bold;
     text-decoration: underline;
 }
 
-img {
-    max-width: 310px!important;
+#spotlight img {
+    max-width: 310px;
     margin-bottom: 45px!important;
 }
 
@@ -31,6 +32,7 @@ img {
 
 .container {
     max-width: 960px;
+    padding: 0 30px;
 }
 
 .btn-link {
@@ -40,4 +42,14 @@ img {
     margin-bottom: 30px!important;
     display: inline-block;
     border-radius: 30px!important;
+}
+
+@media screen and (max-width:767px) {
+    #spotlight img {
+        max-width:200px!important;
+    }
+
+    img {
+        max-width: 100%!important;
+    }
 }
